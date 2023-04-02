@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 50vw;
+    margin: 40px auto ;
+    background-color: grey;
+    background-image: url(images/bg800bulbs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Ubuntu',Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    font-size: 20px;
+}
+
+main{
+    padding: 2rem;
+}
+
+#page{
+    background-color: white;
+    border-radius: 10px;  
+
+}
+
+#banner{
+    width: 100%;
+    height: auto;
+}
+
+#bulb{
+    padding: 10px;
+    float: left;
+}
+
+#topnav{
+    height: 70px;
+    float:right;
+    width: 250px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.mainimg{
+    border-radius: 10px;  
+    width: 80%;
+    height:auto;
+    justify-self: right;
+}
+
+p{
+    padding-bottom: 120px;
+}
+
+td{
+    text-align: right;
+    padding-right: 40px;
+    font-size: 16px;
+}
+
+.fullwidth{
+    width: 100%;
+}
+
+h2{
+    font-size: 18px;
+}
+
+hr{
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.backtotop{
+    padding: 0.5rem 5rem;
+    background-color: rgb(228, 228, 228);
+    border: 1px solid grey;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.topbox{
+    text-align: center;
+}
+
+.topbox a{
+    width: 15%;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+article{
+    background-color: rgba(176, 210, 203, 0.13);   
+    min-height: 250px;
+    border: 1px rgb(176, 210, 203) solid;
+    border-left: 8px rgb(176, 210, 203) solid;
+    margin: 20px auto 40px;
+}
+
+.tesimg{
+    float: left;
+    margin: 20px;
+}
+
+.tesimg img{
+    width: 100%;
+    height: auto;
+}
+
+blockquote{
+    padding-top: 1rem;
+}
+
+
+#bottomlink{
+    margin-top: 5rem;
+}
+
+#toplink{
+    margin-bottom: 4rem;
+}
+
+footer{
+    background-color: rgb(214, 103, 23);
+    color: white;
+    padding: 0.5rem;
+    margin-top: 5rem;
+    border-radius: 0px 0px 10px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer h4{
+    margin: 1rem;
+}
+
+#aboutus{
+    padding-bottom: 4rem;
+}
+
+/* Wow grid really makes this SO much easier*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    padding-top: 1rem;
+    margin-top: 3rem;
+}
+
+.container h2{
+    border-bottom: 1px solid black;
+}
+
+figure{
+    display: inherit;
+}
